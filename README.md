@@ -5,7 +5,6 @@
 ![version](https://img.shields.io/badge/version-v2-green)
 
 使用Golang开发的微信SDK，简单、易用。
->注意：当前版本为v2版本，v1版本已废弃
 
 
 ## 文档 && 例子
