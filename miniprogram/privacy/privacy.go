@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/miniprogram/context"
-	"github.com/silenceper/wechat/v2/util"
+	"wechat/miniprogram/context"
+	"wechat/util"
 )
 
 // Privacy 小程序授权隐私设置

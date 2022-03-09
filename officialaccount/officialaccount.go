@@ -3,25 +3,25 @@ package officialaccount
 import (
 	"net/http"
 
-	"github.com/silenceper/wechat/v2/officialaccount/draft"
-	"github.com/silenceper/wechat/v2/officialaccount/freepublish"
-	"github.com/silenceper/wechat/v2/officialaccount/ocr"
+	"wechat/officialaccount/draft"
+	"wechat/officialaccount/freepublish"
+	"wechat/officialaccount/ocr"
 
-	"github.com/silenceper/wechat/v2/officialaccount/datacube"
+	"wechat/officialaccount/datacube"
 
-	"github.com/silenceper/wechat/v2/credential"
-	"github.com/silenceper/wechat/v2/officialaccount/basic"
-	"github.com/silenceper/wechat/v2/officialaccount/broadcast"
-	"github.com/silenceper/wechat/v2/officialaccount/config"
-	"github.com/silenceper/wechat/v2/officialaccount/context"
-	"github.com/silenceper/wechat/v2/officialaccount/device"
-	"github.com/silenceper/wechat/v2/officialaccount/js"
-	"github.com/silenceper/wechat/v2/officialaccount/material"
-	"github.com/silenceper/wechat/v2/officialaccount/menu"
-	"github.com/silenceper/wechat/v2/officialaccount/message"
-	"github.com/silenceper/wechat/v2/officialaccount/oauth"
-	"github.com/silenceper/wechat/v2/officialaccount/server"
-	"github.com/silenceper/wechat/v2/officialaccount/user"
+	"wechat/credential"
+	"wechat/officialaccount/basic"
+	"wechat/officialaccount/broadcast"
+	"wechat/officialaccount/config"
+	"wechat/officialaccount/context"
+	"wechat/officialaccount/device"
+	"wechat/officialaccount/js"
+	"wechat/officialaccount/material"
+	"wechat/officialaccount/menu"
+	"wechat/officialaccount/message"
+	"wechat/officialaccount/oauth"
+	"wechat/officialaccount/server"
+	"wechat/officialaccount/user"
 )
 
 // OfficialAccount 微信公众号相关API

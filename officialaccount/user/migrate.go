@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/util"
+	"wechat/util"
 )
 
 const (

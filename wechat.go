@@ -3,17 +3,18 @@ package wechat
 import (
 	"os"
 
-	"github.com/silenceper/wechat/v2/cache"
-	"github.com/silenceper/wechat/v2/miniprogram"
-	miniConfig "github.com/silenceper/wechat/v2/miniprogram/config"
-	"github.com/silenceper/wechat/v2/officialaccount"
-	offConfig "github.com/silenceper/wechat/v2/officialaccount/config"
-	"github.com/silenceper/wechat/v2/openplatform"
-	openConfig "github.com/silenceper/wechat/v2/openplatform/config"
-	"github.com/silenceper/wechat/v2/pay"
-	payConfig "github.com/silenceper/wechat/v2/pay/config"
-	"github.com/silenceper/wechat/v2/work"
-	workConfig "github.com/silenceper/wechat/v2/work/config"
+	"wechat/cache"
+	"wechat/miniprogram"
+	miniConfig "wechat/miniprogram/config"
+	"wechat/officialaccount"
+	offConfig "wechat/officialaccount/config"
+	"wechat/openplatform"
+	openConfig "wechat/openplatform/config"
+	"wechat/pay"
+	payConfig "wechat/pay/config"
+	"wechat/work"
+	workConfig "wechat/work/config"
+
 	log "github.com/sirupsen/logrus"
 )
 

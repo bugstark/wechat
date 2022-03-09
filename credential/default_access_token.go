@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/silenceper/wechat/v2/cache"
-	"github.com/silenceper/wechat/v2/util"
+	"wechat/cache"
+	"wechat/util"
 )
 
 const (
